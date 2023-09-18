@@ -21,7 +21,6 @@
     background-color:#00008b ;
     display: flex;
     justify-content: center;
-
 }
 .block {
     background-color:#ee81ee ;
@@ -62,4 +61,47 @@
     border: 1px dashed black;
     height: 500px;
     width: 700px;
+}
+.conteiner-flex { 
+    background-color:#23272a;
+    padding: 30px;
+    width: 100%;
+}
+.grid { 
+    background-color: #30b2aa;
+    border: 1px dashed black;
+    height: 300px;
+    width: 180px;
+}
+.luca-container {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.grid:first-child {
+    width: calc(100% / 5 * 2 );
+    background-color: #f08080;
+}
+.footer {
+    background-color:#23272a;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.i-footer {
+    background-color:#7fffd4;
+    height: 70px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    background-color: #ffb6c0;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    padding: 7px; 
 }
